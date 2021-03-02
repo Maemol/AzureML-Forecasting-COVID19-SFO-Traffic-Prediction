@@ -382,5 +382,3 @@ And the prediction:
 
 https://youtu.be/s68R70AyGGI
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
