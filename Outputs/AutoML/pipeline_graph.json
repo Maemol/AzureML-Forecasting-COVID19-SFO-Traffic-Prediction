@@ -1,0 +1,134 @@
+{
+    "schema_name": "pipeline_graph",
+    "schema_version": "1.0.0",
+    "data": {
+        "module_nodes": {
+            "71625d3a": {
+                "node_id": "71625d3a",
+                "name": "prefittedsoftvotingregressor",
+                "status": "model"
+            },
+            "0b2b62ce": {
+                "node_id": "0b2b62ce",
+                "name": "DateTime",
+                "status": "dataType"
+            },
+            "bde35286": {
+                "node_id": "bde35286",
+                "name": "DateTimeTransformer",
+                "status": "operation"
+            },
+            "697d8960": {
+                "node_id": "697d8960",
+                "name": "DateTimeTransformer",
+                "status": "operation"
+            },
+            "d1e93d66": {
+                "node_id": "d1e93d66",
+                "name": "DateTimeTransformer",
+                "status": "operation"
+            },
+            "3092929e": {
+                "node_id": "3092929e",
+                "name": "DateTimeTransformer",
+                "status": "operation"
+            },
+            "9a8f7d58": {
+                "node_id": "9a8f7d58",
+                "name": "DateTimeTransformer",
+                "status": "operation"
+            },
+            "0a57bfc4": {
+                "node_id": "0a57bfc4",
+                "name": "DateTimeTransformer",
+                "status": "operation"
+            },
+            "f0f25314": {
+                "node_id": "f0f25314",
+                "name": "DateTimeTransformer",
+                "status": "operation"
+            }
+        },
+        "edges": [
+            {
+                "source_node_id": "1a81690e",
+                "source_node_name": "data_source",
+                "source_name": "",
+                "target_name": "1 col",
+                "dst_node_id": "0b2b62ce",
+                "dst_node_name": "DateTime"
+            },
+            {
+                "source_node_id": "0b2b62ce",
+                "source_node_name": "",
+                "source_name": "",
+                "target_name": "",
+                "dst_node_id": "bde35286",
+                "dst_node_name": ""
+            },
+            {
+                "source_node_id": "bde35286",
+                "source_node_name": "",
+                "source_name": "",
+                "target_name": "",
+                "dst_node_id": "697d8960",
+                "dst_node_name": ""
+            },
+            {
+                "source_node_id": "697d8960",
+                "source_node_name": "",
+                "source_name": "",
+                "target_name": "",
+                "dst_node_id": "d1e93d66",
+                "dst_node_name": ""
+            },
+            {
+                "source_node_id": "d1e93d66",
+                "source_node_name": "",
+                "source_name": "",
+                "target_name": "",
+                "dst_node_id": "3092929e",
+                "dst_node_name": ""
+            },
+            {
+                "source_node_id": "3092929e",
+                "source_node_name": "",
+                "source_name": "",
+                "target_name": "",
+                "dst_node_id": "9a8f7d58",
+                "dst_node_name": ""
+            },
+            {
+                "source_node_id": "9a8f7d58",
+                "source_node_name": "",
+                "source_name": "",
+                "target_name": "",
+                "dst_node_id": "0a57bfc4",
+                "dst_node_name": ""
+            },
+            {
+                "source_node_id": "f0f25314",
+                "source_node_name": "",
+                "source_name": "",
+                "target_name": "7 col",
+                "dst_node_id": "71625d3a",
+                "dst_node_name": ""
+            },
+            {
+                "source_node_id": "0a57bfc4",
+                "source_node_name": "",
+                "source_name": "",
+                "target_name": "",
+                "dst_node_id": "f0f25314",
+                "dst_node_name": ""
+            }
+        ],
+        "child_runs": [],
+        "datasource_nodes": {
+            "1a81690e": {
+                "node_id": "1a81690e",
+                "name": "data_source - 1 col"
+            }
+        }
+    }
+}
