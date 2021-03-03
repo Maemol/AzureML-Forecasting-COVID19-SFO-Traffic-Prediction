@@ -382,3 +382,12 @@ And the prediction:
 
 https://youtu.be/s68R70AyGGI
 
+## How to improve
+
+I have a few ideas to improve the performance of the prediction. As I said earlier for the DNN and LSTM model, I only predict one month of data for each prediction. I think it hurt my prediction to use predicted value instead of actual data because the more I want to predict in the future and the more error I will add. I will work on that later to see if the forecast is improved this way. Ideally for this use case, I want to output 7 Months of data to make my prediction from March to September without using predicted value as an input.
+
+For the autoML run, I want to see if I can understand why Prophet and SARIMA didn't performed well in comparison with a fine tuned decision tree.
+
+## Conclusion
+
+The main goal of this project was to try something different than my usual ML projects and try to learn about forecasting. It was very interesting and I learned a lot during the journey.
